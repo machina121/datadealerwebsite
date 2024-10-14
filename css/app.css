@@ -1,0 +1,177 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+	color: #07b887 !important;
+	font-size: 24px;
+	z-index: 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Ubuntu Mono', cursive !important;
+	color: #07b887 !important;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Ubuntu Mono', cursive !important;
+	font-size: 6rem;
+	line-height: 4.5rem;
+	-webkit-text-stroke: 0.2rem black;
+	text-stroke:  0.2rem black;
+   	text-shadow:
+       	3px 3px 0 #000,
+     	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+       	1px 1px 0 #000;
+       	text-shadow: 4px 4px #3fe8c6;
+}
+
+h1 span {
+	font-family: 'Ubuntu Mono', cursive !important;
+	font-size: 4rem;
+	position: relative;
+	top: -0.5rem;
+	color: #07b887 !important;
+}
+
+h2 {
+	margin-bottom: 1.25rem;
+}
+
+#intro h4 {
+	margin: 3.5rem auto 1rem auto;
+	max-width: 50%;
+	text-align: center;
+	color: #07b887 !important; 
+}
+
+
+.full-width {
+	max-width: 100%;
+	padding: 4rem 3rem 4rem 3rem;
+}
+
+body {
+	background-color: #18191b;
+	height: 0px;
+}
+
+footer {
+	background-color: #18191b;
+}
+
+li:before {
+  //content: '\2022';
+  padding: 10px;
+  text-shadow: 1px 1px 2px red;
+}
+
+.button {
+	background-color: #18191b;
+    font-size: 1.75rem;
+    border: 2px solid #07b887;
+    line-height: 1.5;
+    padding: 0.55em 1em;
+}
+
+.button:hover {
+  background-color: #2d2e31;
+}
+
+.button.centered {
+    padding: 0.8em 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.small-centered-fixedWidth {
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+img.cards {
+
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+	color: #07b887 !important;
+}
+
+footer {
+	padding: 1.5rem !important;
+	margin: 0 !important;
+}
+
+footer, footer p, footer a {
+
+	color: white !important;
+	font-size: 1.25rem !important;
+	margin: 0;
+	padding: 0;
+}
+
+footer .right {
+	text-align: right !important;
+}
+
+input[type="text"], textarea {
+    color: #3fe8c6 !important;
+    background-color: #8c8882;
+}
+
+input[type=text]:focus{
+    color: #3fe8c6 !important;
+    background-color: #8c8882;
+}
+
+input, textarea, .myButton {
+	padding: 1.0rem !important;
+	border-radius: 0.5em !important;
+	font-size: 1.5rem !important;
+	border: 0.25 white solid !important;
+	min-height: 1.5rem !important;
+    
+	font-family: 'Ubuntu Mono', sans-serif !important;
+}
+
+textarea {
+	min-height: 10rem !important;
+}
+
+input, textarea {
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd !important;
+  	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd !important;
+  	box-shadow: inset 2px 2px 2px 0px rgba(100,100,100,1) !important;
+
+  	line-height: 2rem !important;
+  	padding: 2rem !important;
+}
+
+input[type=submit], .myButton {
+	background-color: #c02a31;
+	color: white !important;
+	border: none !important;
+	margin-bottom: 3rem;
+	padding: 1rem 2rem !important;
+
+	-moz-box-shadow:    	0.25rem 0.25rem 0px #ac6030 !important;
+   	-webkit-box-shadow: 	0.25rem 0.25rem 0px #ac6030 !important;
+   	box-shadow:         		0.25rem 0.25rem 0px #ac6030 !important;
+}
+
+.myButton:hover, nav li:hover {
+	background-color: #7c0006 !important;
+	color: white !important;
+}

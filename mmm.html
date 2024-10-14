@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="Data Dealer Productions">
+
+        <title>Data Dealer Productions</title>
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="theme-color" content="#000000">
+    </head>
+    <body>
+        <br/>
+        <h2>Massively Multiplayer Music</h2>
+        <h3>
+        A DJ set?<br/>
+        <img src="images/tease1.png"/>
+        <br/><br/>A game played collectively?<br/>
+        <img src="images/tease2.png"/>
+        <br/><br/>A new experience?<br/>
+        <img src="images/tease3.png"/>
+        </h3>
+        
+        <br/>
+        <h2>Alpha test coming soon to LA<br/>
+        Want to stay in the loop?</h2>
+        <h3><span id="enterEmailText">Enter your email to receive updates:</span></h3>
+        <div class="small-centered-fixedWidth">
+            <input id="emailInput" type="text" class="input" onkeydown="inputKeyDown()"/>
+            <button id="submitEmailButton" type="button" class="button centered" onclick="submitEmail()">Submit</button>
+            <span id="successText" class="centerText" hidden><h3>success!!!</h3></span>
+        </div>
+        
+        <br/><br/><br/><br/>
+        
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/mail.js"></script>
+    </body>
+</html>
