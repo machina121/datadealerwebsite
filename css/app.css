@@ -1,18 +1,18 @@
 * {
 	font-family: 'Ubuntu', sans-serif;
-	color: #07b887 !important;
+	color: #07b887;
 	font-size: 24px;
 	z-index: 0;
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Ubuntu Mono', cursive !important;
-	color: #07b887 !important;
+	font-family: 'Ubuntu Mono', cursive;
+	color: #07b887;
 	text-align: center;
 }
 
 h1 {
-	font-family: 'Ubuntu Mono', cursive !important;
+	font-family: 'Ubuntu Mono', cursive;
 	font-size: 6rem;
 	line-height: 4.5rem;
 	-webkit-text-stroke: 0.2rem black;
@@ -27,11 +27,11 @@ h1 {
 }
 
 h1 span {
-	font-family: 'Ubuntu Mono', cursive !important;
+	font-family: 'Ubuntu Mono', cursive;
 	font-size: 4rem;
 	position: relative;
 	top: -0.5rem;
-	color: #07b887 !important;
+	color: #07b887;
 }
 
 h2 {
@@ -46,7 +46,7 @@ h3 {
 	margin: 3.5rem auto 1rem auto;
 	max-width: 50%;
 	text-align: center;
-	color: #07b887 !important; 
+	color: #07b887; 
 }
 
 
@@ -72,6 +72,7 @@ li:before {
 
 .button {
 	background-color: #18191b;
+    color: #07b887;
     font-size: 1.5rem;
     border: 2px solid #07b887;
     line-height: 1.5;
@@ -80,6 +81,7 @@ li:before {
 
 .button:hover {
   background-color: #2d2e31;
+  color: #56deb8;
 }
 
 .button.centered {
@@ -110,7 +112,7 @@ img.center {
 }
 
 a {
-	color: #07b887 !important;
+	color: #07b887;
 }
 
 footer {
@@ -165,8 +167,8 @@ input, textarea {
 
 input[type=submit], .myButton {
 	background-color: #c02a31;
-	color: white !important;
-	border: none !important;
+	color: white;
+	border: none;
 	margin-bottom: 3rem;
 	padding: 1rem 2rem !important;
 
@@ -177,5 +179,4 @@ input[type=submit], .myButton {
 
 .myButton:hover, nav li:hover {
 	background-color: #7c0006 !important;
-	color: white !important;
 }
